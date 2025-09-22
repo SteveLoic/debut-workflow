@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Step1 - Checkout Repo
+        run: echo checkout code
         
       - name: Step2 - Set USER AS USERNAME
         run: |
